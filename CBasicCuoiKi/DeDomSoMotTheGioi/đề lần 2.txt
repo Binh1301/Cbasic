@@ -1,0 +1,70 @@
+1. Nhập một dãy gồm m (m<= 10000) số nguyên dương và 2 số nguyên dương Q, n (1<=n<m).
+Hãy đếm số các tổ hợp của n số trong m số nguyên trên cho tổng là Q.
+
+INPUT: 
+m n Q và danh sách m số nguyên dương tiếp theo cách nhau bởi ký tự trắng
+OUTPUT: 
+Số lượng tổ hợp thỏa mãn yêu cầu
+
+Ví dụ:
+INTPUT: 6 2 10
+5 5 4 1 6 5 
+
+OUTPUT:
+4
+2. Nhập một dãy gồm m (m<= 10000) số nguyên dương và 2 số nguyên dương Q, n (1<=n<m).
+Hãy đếm số các tổ hợp của n số trong m số nguyên trên cho tổng là Q.
+
+INPUT: 
+m n Q và danh sách m số nguyên dương tiếp theo cách nhau bởi ký tự trắng
+OUTPUT: 
+Số lượng tổ hợp thỏa mãn yêu cầu
+
+Ví dụ:
+INTPUT: 6 2 10
+5 5 4 1 6 5 
+
+OUTPUT:
+4
+3. Tìm các miền liên thông của các điểm ảnh trắng trong ảnh nhị phân, trong đó điểm ảnh đen có giá trị 0 và điểm ảnh trắng có giá trị 1. Ảnh có kích thước m x n. Hai điểm ảnh được coi là liên thông nếu chúng nằm trong quan hệ cận kề 8 điểm với nhau.
+
+INPUT: m n
+giá trị các điểm ảnh tuần tự theo từng hàng
+OUTPUT:
+Số các miên liên thông của 1
+
+
+Ví dụ
+INPUT:
+5 5
+1 1 0 0 0
+1 1 0 0 0
+0 0 1 0 0
+0 0 0 1 1
+0 0 0 0 1
+
+OUTPUT:
+1
+4. Nhập một danh sách sinh viên, mỗi sinh viên có thông tin theo định dạng:
+Họ và tên, MSSV;
+
+Mỗi sinh viên có thể được nhập trên một dòng hoặc nhiều sinh viên trên cùng một dòng.
+Danh sách kết thúc khi gặp chuỗi "end."
+
+Sau đó, nhập các tên sinh viên, kết thúc bằng chuỗi "end."
+Hãy tìm sinh viên có tên đó, lấy MSSV tương ứng, rồi sắp xếp toàn bộ danh sách sinh viên theo thứ tự tăng dần của MSSV và in ra danh sách đã sắp xếp.
+
+INPUT:
+Trinh Tien Quan,20250000;Ly Hong Binh,20250001;Cao Thi Anh,20250002;La Thanh Viet,20250003;
+Duong Bao Cuong,20250004;Ngo Van Quan,20250005;Vo Ngoc Hieu,20250006;Quach Son Tai,20250007;
+Do Quang Hanh,20250008;La Huu Linh,20250009;
+end.
+Vit
+Linh
+Quan
+end.
+
+OUTPUT:
+Khong thay
+20250009
+20250000,20250005
