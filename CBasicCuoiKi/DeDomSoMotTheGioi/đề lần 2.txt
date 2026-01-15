@@ -1,8 +1,8 @@
-1. Nhập một dãy gồm m (m<= 10000) số nguyên dương và 2 số nguyên dương Q, n (1<=n<m).
+Bài Tập 1. Nhập một dãy gồm m (m<= 10000) số nguyên dương và 2 số nguyên dương Q, n (1<=n<m).
 Hãy đếm số các tổ hợp của n số trong m số nguyên trên cho tổng là Q.
 
 INPUT: 
-m n Q và danh sách m số nguyên dương tiếp theo cách nhau bởi ký tự trắng
+m n Q vat danh sách m số nguyên dương tiếp theo cách nhau bởi ký tự trắng
 OUTPUT: 
 Số lượng tổ hợp thỏa mãn yêu cầu
 
@@ -12,21 +12,39 @@ INTPUT: 6 2 10
 
 OUTPUT:
 4
-2. Nhập một dãy gồm m (m<= 10000) số nguyên dương và 2 số nguyên dương Q, n (1<=n<m).
-Hãy đếm số các tổ hợp của n số trong m số nguyên trên cho tổng là Q.
 
-INPUT: 
-m n Q và danh sách m số nguyên dương tiếp theo cách nhau bởi ký tự trắng
-OUTPUT: 
-Số lượng tổ hợp thỏa mãn yêu cầu
+
+
+
+
+Bài tập 2. Dựng một cây nhị phân tìm kiếm từ danh sách n khóa số nguyên. Tìm khoảng cách ngắn nhất giữa 2 node có khóa n1, n2.
+
+INPUT:
+Dòng 1: n và danh sách n khóa
+Dòng 2: n1 n2
+OUTPUT:
+Khoảng cách ngắn nhất giữa 2 node n1 và n2
 
 Ví dụ:
-INTPUT: 6 2 10
-5 5 4 1 6 5 
-
+INPUT:
+6 20 10 30 5 15 40
+5 15
 OUTPUT:
-4
-3. Tìm các miền liên thông của các điểm ảnh trắng trong ảnh nhị phân, trong đó điểm ảnh đen có giá trị 0 và điểm ảnh trắng có giá trị 1. Ảnh có kích thước m x n. Hai điểm ảnh được coi là liên thông nếu chúng nằm trong quan hệ cận kề 8 điểm với nhau.
+2
+
+        20
+       /  \
+     10    30
+    /  \     \
+   5   15    40
+
+
+
+
+
+
+
+Bài tập 3. Tìm các miền liên thông của các điểm ảnh trắng trong ảnh nhị phân, trong đó điểm ảnh đen có giá trị 0 và điểm ảnh trắng có giá trị 1. Ảnh có kích thước m x n. Hai điểm ảnh được coi là liên thông nếu chúng nằm trong quan hệ cận kề 8 điểm với nhau.
 
 INPUT: m n
 giá trị các điểm ảnh tuần tự theo từng hàng
@@ -45,7 +63,13 @@ INPUT:
 
 OUTPUT:
 1
-4. Nhập một danh sách sinh viên, mỗi sinh viên có thông tin theo định dạng:
+
+
+
+
+
+
+Bài tập 4. Nhập một danh sách sinh viên, mỗi sinh viên có thông tin theo định dạng:
 Họ và tên, MSSV;
 
 Mỗi sinh viên có thể được nhập trên một dòng hoặc nhiều sinh viên trên cùng một dòng.
